@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'ArtifaktElementRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/ArtifaktElementRegular.woff') format('woff');
+}
+
+
+body {
+  margin: 0;
+  font-family: 'ArtifaktElementRegular';
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */

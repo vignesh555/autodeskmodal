@@ -1,0 +1,22 @@
+$theme-colors: (
+  "info": tomato,
+  "danger": teal
+);
+$customColor: #666;
+$customDarkColor: #333;
+$bodyColor: #ecf0f3;
+
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: "ArtifaktElementRegular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/ArtifaktElementRegular.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  font-family: "ArtifaktElementRegular";
+  background-color: $bodyColor;
+}

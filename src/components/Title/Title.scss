@@ -1,0 +1,8 @@
+@import "../../common.scss";
+
+.pageTitle {
+    background: url('../../assets/images/title_banner_v2.jpg');
+    padding: $spacer * 2;
+    color: $white;
+    text-transform: uppercase;
+}
